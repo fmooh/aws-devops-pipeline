@@ -20,7 +20,6 @@ pipeline {
         stage('plan') {
             steps {
                 sh 'terraform plan'
-
             }
         }
         stage('apply') {
